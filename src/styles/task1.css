@@ -1,0 +1,133 @@
+body{
+  background-color: black;
+  color: white;
+}
+header{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 50px;
+  border: 1px solid;
+  padding: 10px;
+}
+.nav-2{
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+input{
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 10px;
+  width: 95%;
+}
+.search-btn{
+  margin-left: -30px;
+  background: transparent;
+  border: none;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+section{
+  margin-top: 120px;
+  /* height: 100vh; */
+ margin-left:100px ;
+ margin-right:100px ;
+}
+.root{
+  /* height: 100%; */
+  width: 100%;
+  display: grid;
+  grid-template-columns: 4fr 4fr 4fr 4fr;
+  gap: 25px;
+}
+.card{
+  height: 500px;
+  /* width: 250px; */
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  /* align-items: center; */
+  box-shadow: rgb(229, 225, 225) 0px 5px 15px;
+  box-shadow: 5px ;
+  border-radius: 0px 0px 10px 10px;
+}
+.card>.card-head>img{
+  /* top:0px; */
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.btn {
+  background: #00d4ff;
+  color: white;
+  padding: 15px 40px;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 212, 255, 0.3);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  transform-style: preserve-3d;
+}
+.btn:hover {
+  transform: translateY(-10px) rotateX(5deg) rotateY(5deg);
+  box-shadow: 0 20px 40px rgba(0, 212, 255, 0.5);
+}
+.card-head{
+  height: 300px;
+}
+.card-ratings{
+  height: 30px;
+  padding-left: 10px;
+  padding-top: 10px;
+  font-size: 18px;
+}
+.card-footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+.anime-name{
+  padding-left: 10px;
+  font-size: 17px;
+  font-weight: bold;
+}
+.button-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.button-wrapper i {
+  font-size: 24px;
+  color: #00d4ff;
+}
+
+.button-wrapper button {
+  background-color: #00d4ff;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 20px rgba(0, 212, 255, 0.3);
+}
+
+.button-wrapper button:hover {
+  background-color: #00b8e6;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgba(0, 212, 255, 0.5);
+}

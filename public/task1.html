@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="../src/styles/task1.css">
+  <title>Document</title>
+</head>
+<body>
+   <header>
+     <nav>
+       <div class="nav-1">
+         <span class="bi bi-list"></span>
+         <span>ANIMES</span>
+       </div>
+       <div class="nav-2">
+         
+            <input type="search" placeholder="Search For Animes">
+            <button class="search-btn"><span class="bi bi-search"></span>
+            </button>
+         
+       </div>
+       <div class="nav-3">
+         <span>SIGN IN</span>
+       </div>
+     </nav>
+   </header>
+
+   <section>
+    <h2>Top Featured Animes</h2>
+     <div class="root">
+       <div class="card">
+          <div class="card-head">
+            <img src="../public/images/spirtedaway.jpg" alt="">
+          </div>
+          <div class="card-body"> 
+            <div class="card-ratings">
+              <span class="bi bi-star-fill"></span>
+                <span>8.6</span>
+            </div>
+              <p class="anime-name">Spirted Away</p>
+          </div>
+          <div class="card-footer">
+              <button class="btn"><span>Watch Now</span></button>
+          </div>
+       </div>
+     </div>
+     <div class="button-wrapper">
+      <i class="bi bi-shuffle"></i>
+      <button onclick="recomendAnimes() ">Surprise Me</button>
+    </div>
+   </section>
+  
+</body>
+<script src="../src/scripts/task1.js"></script>
+</html>
